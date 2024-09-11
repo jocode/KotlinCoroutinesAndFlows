@@ -18,14 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8a1acc07182e9f5e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ]
       }
@@ -156,8 +148,8 @@
   },
   "active": "3b8df2d1cee023fb",
   "lastOpenFiles": [
-    "docs/TestingCoroutinesAndFlows.md",
     "README.md",
+    "docs/TestingCoroutinesAndFlows.md",
     "docs/FlowsFundamentals.md",
     "docs/CoroutineSynchronization.md",
     "docs/CoroutineErrorHandling.md",
