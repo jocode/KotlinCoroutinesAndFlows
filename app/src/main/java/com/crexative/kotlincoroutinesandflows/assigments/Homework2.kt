@@ -28,8 +28,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
-import com.crexative.kotlincoroutinesandflows.util.PhotoProcessor
 import com.crexative.kotlincoroutinesandflows.util.RotatingBoxScreen
+import com.crexative.kotlincoroutinesandflows.util.compressor.PhotoProcessor
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay

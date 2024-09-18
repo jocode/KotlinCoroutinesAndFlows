@@ -1,4 +1,4 @@
-package com.crexative.kotlincoroutinesandflows.util
+package com.crexative.kotlincoroutinesandflows.util.compressor
 
 import android.content.Context
 import android.graphics.Bitmap

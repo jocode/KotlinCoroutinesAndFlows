@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.crexative.kotlincoroutinesandflows.ui.screens.PhotoPickerScreen
 import com.crexative.kotlincoroutinesandflows.ui.theme.KotlinCoroutinesAndFlowsTheme
-import com.crexative.kotlincoroutinesandflows.util.BitmapCompressor
+import com.crexative.kotlincoroutinesandflows.util.compressor.BitmapCompressor
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -17,8 +17,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.unit.dp
-import com.crexative.kotlincoroutinesandflows.util.BitmapCompressor
 import com.crexative.kotlincoroutinesandflows.util.RotatingBoxScreen
+import com.crexative.kotlincoroutinesandflows.util.compressor.BitmapCompressor
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
