@@ -3,20 +3,19 @@ package com.crexative.kotlincoroutinesandflows
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.lifecycle.lifecycleScope
-import com.crexative.kotlincoroutinesandflows.assigments.AssignmentTwoScreen
-import com.crexative.kotlincoroutinesandflows.assigments.soundOfBirdsName
+import com.crexative.kotlincoroutinesandflows.ui.screens.PhotoPickerScreen
 import com.crexative.kotlincoroutinesandflows.ui.theme.KotlinCoroutinesAndFlowsTheme
+import com.crexative.kotlincoroutinesandflows.util.BitmapCompressor
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        soundOfBirdsName(lifecycleScope)
+        val compressor = BitmapCompressor(applicationContext)
 
         setContent {
             KotlinCoroutinesAndFlowsTheme {
-                AssignmentTwoScreen()
+                PhotoPickerScreen(compressor = compressor)
             }
         }
     }
